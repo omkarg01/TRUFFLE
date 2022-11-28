@@ -25,7 +25,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_num\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Demo.sol\":\"Demo\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Demo.sol\":{\"keccak256\":\"0x222ecf52c0d6ac4f902079ae9610cb83d098ad83cfc31c66fae30acb47b9fe7c\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://76ceb6cbf62813649a2efeb5327a77db9adbf889e922a9655351467d5356bcac\",\"dweb:/ipfs/QmfHkYVqiQHmEfJdeo51QXAkXgTLsCUYdaJfDUo75T6vda\"]}},\"version\":1}",
@@ -1004,9 +1005,17 @@
     "name": "solc",
     "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xeA07bBc9915a64Ed73553Bc011D85CEf2b90c600",
+      "transactionHash": "0x3af374bcf737d83042d7aee80b2965a49ce7bb62b444799aaf4f090d0c2f07fe"
+    }
+  },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2022-11-28T11:42:43.665Z",
+  "updatedAt": "2022-11-28T12:08:05.583Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
